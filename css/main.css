@@ -1,0 +1,7 @@
+/* + is the adjustcent selector that target it just below sibling */
+.d_search_input:focus + .d_search {
+    display: block; /*Show*/
+}
+.d_search {
+    display: none; /*Hide*/
+}
